@@ -33,6 +33,7 @@ test "successful edit with friendly forwarding" do
   @user.reload
   assert_equal name, @user.name
   assert_equal email, @user.email
+  assert_nil session[:forwarding_url]
 end
 
 end
