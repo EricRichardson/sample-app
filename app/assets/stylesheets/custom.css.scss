@@ -13,7 +13,7 @@
   padding-top: 9px;
   font-weight: bold;
   &:hover {
-    color: #fff;
+    color: #000;
     text-decoration: none;
   }
 }
@@ -24,7 +24,7 @@ body {
 }
 
 section {
-  overflow: auto;
+  overflow: auto; 
 }
 
 textarea {
@@ -73,6 +73,7 @@ footer {
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
   color: #777;
+  background-color: #000;
 }
 
 footer a {
@@ -287,3 +288,17 @@ span.picture {
     border: 0;
   }
 }
+
+.navbar-default {
+	  background-color: #9B111E;
+	  text-color: black
+	}
+	
+.nav.navbar-nav.navbar-right li a {
+    color: white;
+    &:hover{
+      color: black;
+    }
+    
+}
+.navbar-nav > li > .dropdown-menu { background-color: #FF0000; }
